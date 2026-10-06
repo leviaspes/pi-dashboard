@@ -26,11 +26,11 @@ class Dashboard:
         self.time_label = tk.Label(
             main_frame,
             text='',
-            font=('Arial', 160, 'bold'),
+            font=('Arial', 200, 'bold'),
             fg='#e0e0e0',
             bg='#1a1a1a'
         )
-        self.time_label.pack(pady=(50, 20), expand=True)
+        self.time_label.pack(pady=20, expand=True)
         
         # Date label
         self.date_label = tk.Label(
@@ -40,7 +40,7 @@ class Dashboard:
             fg='#a0a0a0',
             bg='#1a1a1a'
         )
-        self.date_label.pack(pady=(20, 50), expand=True)
+        self.date_label.pack(pady=20, expand=True)
         
         # Start the update loop
         self.update_display()
