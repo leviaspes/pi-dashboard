@@ -26,7 +26,7 @@ class Dashboard:
         self.time_label = tk.Label(
             main_frame,
             text='',
-            font=('Arial', 120, 'bold'),
+            font=('Arial', 160, 'bold'),
             fg='#e0e0e0',
             bg='#1a1a1a'
         )
@@ -36,7 +36,7 @@ class Dashboard:
         self.date_label = tk.Label(
             main_frame,
             text='',
-            font=('Arial', 48),
+            font=('Arial', 75),
             fg='#a0a0a0',
             bg='#1a1a1a'
         )
